@@ -1,6 +1,16 @@
 // Import Custom SB Admin 2 Variables (Overrides Default Bootstrap Variables)
 @import "variables.scss";
 
+$primary: blue;
+$secondary: green;
+$red: #ff0000;
+$gray: #414141;
+
+$theme-colors: (
+  primary: $primary,
+  red: $red,
+  gray: $gray
+);
 // Import Bootstrap
 @import "../vendor/bootstrap/scss/bootstrap.scss";
 
